@@ -29,3 +29,20 @@ cd aspnetcoreapp/
 ```
 dotnet watch run
 ```
+
+## Deploy using a Dockerfile
+
+### Building Docker Image Locally
+```
+docker build -t <imagename> .
+```
+
+### Running docker container using Above Build Image
+```
+docker run -p 5000:5000 -e ASPNETCORE_URLS=http://*:5000 <imagename>
+```
+
+## TESTING
+```
+http://<server_public_ip>:5000
+```
