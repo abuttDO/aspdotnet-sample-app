@@ -1,0 +1,12 @@
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/bin/Debug/net6.0/dotnet6blasorwasm.Shared.deps.json
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/bin/Debug/net6.0/dotnet6blasorwasm.Shared.dll
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/bin/Debug/net6.0/ref/dotnet6blasorwasm.Shared.dll
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/bin/Debug/net6.0/dotnet6blasorwasm.Shared.pdb
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/dotnet6blasorwasm.Shared.csproj.AssemblyReference.cache
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/dotnet6blasorwasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/dotnet6blasorwasm.Shared.AssemblyInfoInputs.cache
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/dotnet6blasorwasm.Shared.AssemblyInfo.cs
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/dotnet6blasorwasm.Shared.csproj.CoreCompileInputs.cache
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/dotnet6blasorwasm.Shared.dll
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/ref/dotnet6blasorwasm.Shared.dll
+/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/Debug/net6.0/dotnet6blasorwasm.Shared.pdb
