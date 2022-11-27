@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "/root/aspdotnet-sample-app/dotnet6blasorwasm/Server/dotnet6blasorwasm.Server.csproj": {}
+  },
+  "projects": {
+    "/root/aspdotnet-sample-app/dotnet6blasorwasm/Client/dotnet6blasorwasm.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Client/dotnet6blasorwasm.Client.csproj",
+        "projectName": "dotnet6blasorwasm.Client",
+        "projectPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Client/dotnet6blasorwasm.Client.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/dotnet6blasorwasm.Shared.csproj": {
+                "projectPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/dotnet6blasorwasm.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/root/aspdotnet-sample-app/dotnet6blasorwasm/Server/dotnet6blasorwasm.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Server/dotnet6blasorwasm.Server.csproj",
+        "projectName": "dotnet6blasorwasm.Server",
+        "projectPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Server/dotnet6blasorwasm.Server.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/root/aspdotnet-sample-app/dotnet6blasorwasm/Client/dotnet6blasorwasm.Client.csproj": {
+                "projectPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Client/dotnet6blasorwasm.Client.csproj"
+              },
+              "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/dotnet6blasorwasm.Shared.csproj": {
+                "projectPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/dotnet6blasorwasm.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/dotnet6blasorwasm.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/dotnet6blasorwasm.Shared.csproj",
+        "projectName": "dotnet6blasorwasm.Shared",
+        "projectPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/dotnet6blasorwasm.Shared.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/aspdotnet-sample-app/dotnet6blasorwasm/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/dotnet6-6.0.110/sdk/6.0.110/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
