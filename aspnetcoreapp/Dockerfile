@@ -27,5 +27,7 @@ RUN dotnet publish -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENV ASPNETCORE_URLS http://*:5000
+ARG ASPNETCORE_URLS 
+ENV ASPNETCORE_URLS=$ASPNETCORE_URLS
+RUN echo $ASPNETCORE_URLS
 ENTRYPOINT ["dotnet", "aspnetcoreapp.dll"]
