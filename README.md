@@ -47,7 +47,7 @@ docker run -p 5000:5000 -e ASPNETCORE_URLS=http://*:5000 <imagename>
 http://<server_public_ip>:5000
 ```
 
-#APP SPEC FILE
+# APP SPEC FILE
 ```
 ingress:
   rules:
